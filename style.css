@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+body {
+  background-color: #fbf8f8;
+}
+
+.change-theme {
+  position: absolute;
+  height: 24px;
+  width: 129px;
+  top: 0;
+  background-color: black;
+  color: rgb(236, 227, 227);
+  left: 1120px;
+  border-radius: 0 0 8px 8px;
+  font-size: 12px;
+  text-align: center;
+}
+.change-theme:hover{
+    color:yellow;
+}
+
+.circle {
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  top: 40px;
+  left: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+.textbox {
+  position: absolute;
+  width: 142px;
+  height: 189px;
+  left: 38px;
+  top: 38px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+}
+.navbar ul {
+  position: absolute;
+  top: 40px;
+  left: 343px;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 60px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.line {
+  position: absolute;
+  width: 899px;
+  height: 0px;
+  left: 316px;
+  top: 120px;
+  border: 1px solid #000;
+}
+.small-line1 {
+  position: absolute;
+  width: 10px;
+  height: 0px;
+  left: 498px;
+  top: 113px;
+  border: 1px solid #000000;
+  transform: rotate(90deg);
+}
+.small-line2 {
+  position: absolute;
+  width: 10px;
+  height: 0px;
+  left: 666px;
+  top: 113px;
+  border: 1px solid #000000;
+  transform: rotate(90deg);
+}
+.small-line3 {
+  position: absolute;
+  width: 10px;
+  height: 0px;
+  left: 835px;
+  top: 113px;
+  border: 1px solid #000000;
+  transform: rotate(90deg);
+}
+.small-line4 {
+  position: absolute;
+  width: 10px;
+  height: 0px;
+  left: 992px;
+  top: 113px;
+  border: 1px solid #000000;
+  transform: rotate(90deg);
+}
+
+.footer {
+  position: absolute;
+  background-color: black;
+  width: 1349px;
+  height: 110px;
+  top: 800px;
+  border-radius: 8px 8px 0px 0px;
+}
+.Background-Image img {
+  position: absolute;
+  width: 534px;
+  height: 444px;
+  left: 770px;
+  top: 195px;
+}
+
+.outerbox {
+  position: absolute;
+  width: 300px;
+  height: 320px;
+  left: 225px;
+  top: 252px;
+  background: #fafafa;
+}
+.innerbox {
+  position: absolute;
+  width: 300px;
+  height: 320px;
+  left: 0px;
+  top: 0px;
+  background: #fcfafa;
+}
+.innerbox h1 {
+  position: absolute;
+  font-size: 47px;
+  line-height: 43px;
+  text-align: center;
+  top: 2px;
+}
+.innerbox h3 {
+  position: absolute;
+  font-size: 26px;
+  text-align: center;
+  top: 134px;
+  left: 14px;
+  line-height: 25px;
+}
+.innerbox h5 {
+  position: absolute;
+  font-size: 14px;
+  text-align: center;
+  top: 221px;
+  left: 10px;
+  line-height: 17px;
+  color: #9e9090;
+}
+.innerbox h5:hover {
+  color: rgb(203, 109, 231);
+  transition: 1s ease-out;
+}
+.outerbox .innerbox:hover {
+  box-shadow: 2px 2px 2px 1px rgb(158, 145, 145);
+}
+.tree-image img {
+  position: absolute;
+  width: 214px;
+  height: 167px;
+  left: 58px;
+  top: 636px;
+}
+.text1 {
+  position: absolute;
+  color: #fff;
+  width: 280px;
+  height: 16px;
+  left: 82px;
+  top: 19px;
+  text-align: center;
+}
+.text1 h3 {
+  font-size: 14px;
+  font-weight: normal;
+}
+.text1 h1 {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  color: #cec5c5;
+  top: 28px;
+  left: 13px;
+}
+
+.contact-section {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  width: 280px;
+  height: 16px;
+  left: 500px;
+  top: 19px;
+}
+
+.contact-section h5 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.contact-section h4 {
+  position: absolute;
+  top: 20px;
+  font-weight: normal;
+}
+
+.contact-section h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.contact-section h3 {
+  position: absolute;
+  top: 20px;
+  font-weight: normal;
+  left: 176px;
+  font-size: 15px;
+}
+
+.right-text p {
+  position: absolute;
+  width: 276px;
+  height: 32px;
+  left: 1056px;
+  top: 43px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #e6dede;
+}
+.right-text h2 {
+  position: absolute;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  left: 1060px;
+  top: 20px;
+}
